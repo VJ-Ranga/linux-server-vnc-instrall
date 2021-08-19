@@ -13,3 +13,7 @@ startxfce4 &
 
 $ sudo chmod +x ~/.vnc/xstartup
 $ vncserver
+
+(vncserver -kill :1)
+$ vncserver -kill :1
+$ vncserver -geometry 1366x768
