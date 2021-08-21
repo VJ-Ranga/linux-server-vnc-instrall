@@ -1,5 +1,5 @@
 $ sudo apt update
-$ sudo apt install xfce4 xfce4-goodieshttps://github.com/VJ-Ranga/linux-server-vnc-instrall/blob/main/ubuntu
+$ sudo apt install xfce4 xfce4-goodies
 $ sudo apt install tightvncserver
 $ vncserver
 $ vncserver -kill :1
