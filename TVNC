@@ -109,7 +109,7 @@ echo "--------------------------------------------------------------------------
 echo ""
 echo "You have successfully installed the Xfce desktop environment and TightVNC server";
 echo ""
-echo "MThis command can be used to start and stop the VNC server.";
+echo "This command can be used to start and stop the VNC server.";
 echo ""
 echo "To Start the VNC server"
 echo "vncserver or vncserver -geometry 1366x768"
