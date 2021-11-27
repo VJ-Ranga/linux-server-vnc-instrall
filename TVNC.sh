@@ -37,6 +37,15 @@ while true; do
                 echo "TightVNC Successfully installed";
                 echo "---------------------------------";
                 echo ""
+                
+                apt install autocutsel; 
+                
+                echo ""
+                echo "---------------------------";
+                echo "autocutsel Successfully installed";
+                echo "---------------------------";
+                echo ""
+
 
 echo ""
 echo "---------------------------------------------------------------------------------------------";
@@ -70,6 +79,7 @@ echo ""
 cat >~/.vnc/xstartup <<EOF
 #!/bin/bash
 xrdb $HOME/.Xresources
+autocutsel -fork
 startxfce4 &
 EOF
 chmod +x ~/.vnc/xstartup
