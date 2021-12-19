@@ -12,10 +12,9 @@ Using this script you can install the Xfce desktop environment and TightVNC serv
 
 or (1366x768 = resolution)</br>
 
-    vncserver -geometry 1366x768</br>
+    vncserver -geometry 1366x768
 
-</br>
-## To Stop the VNC server (:1 = display number) </br>
+### To Stop the VNC server (:1 = display number) </br>
 
     vncserver -kill :1
 
