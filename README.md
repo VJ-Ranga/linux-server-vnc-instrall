@@ -1,4 +1,5 @@
-# linux-server-vnc-instrall
+## linux-server-vnc-instrall
+
 wget https://raw.githubusercontent.com/VJ-Ranga/linux-server-vnc-instrall/main/TVNC.sh && chmod +x TVNC.sh && ./TVNC.sh
 
 To Start the VNC server (1366x768 = resolution)</br>
